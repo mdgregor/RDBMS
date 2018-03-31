@@ -29,7 +29,6 @@ class BaseModel(Model):
     class Meta:
         database = database
 
-
 class Person(BaseModel):
     """
         This class defines Person, which maintains details of someone
